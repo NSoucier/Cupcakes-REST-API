@@ -2,20 +2,23 @@
 
 {% block content %}
 
-<div>Available cupcakes: will be listed here
-</div>
+<h3>Available cupcakes:</h3>
+<div id="cupcakes-container"></div>
+
+<hr id="divider">
 
 <div>
-    <form action="" id="new-cupcake">
+    <form id="new-cupcake">
         <h3>Add a new cupcake</h3>
         <label for="flavor">Flavor</label> <br>
-        <input type="text" name="flavor" id=""> <br>
+        <input type="text" name="flavor" id="flavor"> <br>
         <label for="size">Size</label> <br>
-        <input type="text" name="size" id=""> <br>
+        <input type="text" name="size" id="size"> <br>
         <label for="rating">Rating (x/10)</label> <br>
-        <input type="text" name="rating" id=""> <br>
+        <input type="text" name="rating" id="rating"> <br>
         <label for="image">Link to image</label> <br>
-        <input type="text" name="image" id=""> <br>
+        <input type="text" name="image" id="image"> <br>
+        <button id="add-cupcake">Add cupcake!</button>
     </form>
 </div>
 

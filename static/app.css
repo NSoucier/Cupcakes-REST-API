@@ -1,3 +1,29 @@
 input {
     margin-bottom: 15px;
 }
+
+#divider {
+    border-top: 1px solid lightblue;
+}
+
+img {
+    max-height: 300px;
+}
+
+.cupcake {
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+#cupcakes-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+i {
+    color: rgb(198, 0, 0);
+    margin-left: 5px;
+}
