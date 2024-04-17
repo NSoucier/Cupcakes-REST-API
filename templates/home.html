@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<div>Available cupcakes: will be listed here
+</div>
+
+<div>
+    <form action="" id="new-cupcake">
+        <h3>Add a new cupcake</h3>
+        <label for="flavor">Flavor</label> <br>
+        <input type="text" name="flavor" id=""> <br>
+        <label for="size">Size</label> <br>
+        <input type="text" name="size" id=""> <br>
+        <label for="rating">Rating (x/10)</label> <br>
+        <input type="text" name="rating" id=""> <br>
+        <label for="image">Link to image</label> <br>
+        <input type="text" name="image" id=""> <br>
+    </form>
+</div>
+
+{% endblock %}
